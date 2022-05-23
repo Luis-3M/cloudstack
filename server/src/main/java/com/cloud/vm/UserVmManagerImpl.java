@@ -2716,7 +2716,6 @@ public class UserVmManagerImpl extends ManagerBase implements UserVmManager, Vir
         }
         userData = finalizeUserData(userData, userDataId, template);
 
-
         long accountId = vmInstance.getAccountId();
 
         if (isDisplayVm != null && isDisplayVm != vmInstance.isDisplay()) {
